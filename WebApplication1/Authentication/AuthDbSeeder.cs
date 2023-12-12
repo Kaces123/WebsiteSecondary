@@ -16,7 +16,7 @@ namespace WebApplication1.Authentication
 
         public async Task SeedAsync()
         {
-            await AddDefaultRoles();
+            await AddDefaultRoles(); // Ensure default roles are created
             await AddAdminUser();
         }
 
@@ -25,7 +25,7 @@ namespace WebApplication1.Authentication
             foreach (var role in ForumRoles.All)
             {
                 var roleExists = await _roleManager.RoleExistsAsync(role);
-                if (roleExists)
+                if (!roleExists)
                     await _roleManager.CreateAsync(new IdentityRole(role));
             }
         }
