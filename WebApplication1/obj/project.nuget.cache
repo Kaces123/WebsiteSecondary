@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "didE4fwP9SJ9LANJl/L4qRUARR7ua0+IHHwa4NmfPmR7080YzuNXjlt2Wc+mFnqPcu3eOTFdw2WdcXiLIeAzRA==",
+  "dgSpecHash": "zWwI+XqW5enrSMTNd7BLtKniXQy7UrEp4aQBQqQoJH3/VqW8/5ReCLo6myRMZ0Ah8FllsBC45TeIOmLO8yfrZQ==",
   "success": true,
-  "projectFilePath": "E:\\Universiteto_studijos\\Githubas\\WebsiteSecondary\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "E:\\Universiteto_studijos\\Githubas\\WebsiteSecondary\\BackEnd\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\karol\\.nuget\\packages\\fluentvalidation\\11.8.1\\fluentvalidation.11.8.1.nupkg.sha512",
     "C:\\Users\\karol\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.8.1\\fluentvalidation.dependencyinjectionextensions.11.8.1.nupkg.sha512",

@@ -2768,11 +2768,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Universiteto_studijos\\Githubas\\WebsiteSecondary\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "E:\\Universiteto_studijos\\Githubas\\WebsiteSecondary\\BackEnd\\WebApplication1\\WebApplication1.csproj",
       "projectName": "WebApplication1",
-      "projectPath": "E:\\Universiteto_studijos\\Githubas\\WebsiteSecondary\\WebApplication1\\WebApplication1.csproj",
+      "projectPath": "E:\\Universiteto_studijos\\Githubas\\WebsiteSecondary\\BackEnd\\WebApplication1\\WebApplication1.csproj",
       "packagesPath": "C:\\Users\\karol\\.nuget\\packages\\",
-      "outputPath": "E:\\Universiteto_studijos\\Githubas\\WebsiteSecondary\\WebApplication1\\obj\\",
+      "outputPath": "E:\\Universiteto_studijos\\Githubas\\WebsiteSecondary\\BackEnd\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
