@@ -79,7 +79,7 @@ namespace WebApplication1.Authentication
                 var accessToken = jwtTokenService.CreateAccessToken(user.UserName, user.Id, roles);
                 var refreshToken = jwtTokenService.CreateRefreshToken(user.Id);
 
-                return Results.Ok(new SuccessfulLoginDto(accessToken, refreshToken));
+                return Results.Ok(new SuccessfulLoginDto(accessToken, refreshToken, user.UserName));
 
             });
 
@@ -109,7 +109,7 @@ namespace WebApplication1.Authentication
                 var accessToken = jwtTokenService.CreateAccessToken(user.UserName, user.Id, roles);
                 var refreshToken = jwtTokenService.CreateRefreshToken(user.Id);
 
-                return Results.Ok(new SuccessfulLoginDto(accessToken, refreshToken));
+                return Results.Ok(new SuccessfulLoginDto(accessToken, refreshToken, user.UserName));
 
             });
 
@@ -117,7 +117,7 @@ namespace WebApplication1.Authentication
     }
 }
 
-public record SuccessfulLoginDto(string AccessToken, string RefreshToken);
+public record SuccessfulLoginDto(string AccessToken, string RefreshToken, string UserName);
 
 public record RegisterUserDto(string UserName, string Email, string Password);
 

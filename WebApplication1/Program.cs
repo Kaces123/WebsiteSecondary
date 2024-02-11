@@ -47,8 +47,6 @@ builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
-app.MapGet("/", () => "Hello World!");
-
 /*
  /api/v1/shops GET List 200
  /api/v1/shops/{id} GET One 200
@@ -89,7 +87,7 @@ shopsGroup.MapPost("shops", async ([Validate] CreateShopDto createShopDto, ShopD
 
     dbContext.Shops.Add(shop);
     await dbContext.SaveChangesAsync();
-
+        
     return Results.Created($"/api/shops/{shop.Id}",
      new ShopDto(shop.Id, shop.Name, shop.City, shop.Adresas));
 });
